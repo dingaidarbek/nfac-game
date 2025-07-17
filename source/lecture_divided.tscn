@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2eqwur2r5k2s"]
+
+[ext_resource type="PackedScene" uid="uid://bm57b4e3mbqik" path="res://lecture-divided.glb" id="1_nw2ku"]
+[ext_resource type="Script" path="res://source/collision_generator.gd" id="2_0afva"]
+
+[node name="lecture-divided" instance=ExtResource("1_nw2ku")]
+
+[node name="CollisionGenerator" type="Node" parent="." index="853"]
+script = ExtResource("2_0afva")
